@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="event.css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <section id="container">
+    <div class="row">
+      <h1>Calculadora</h1>
+      <select name="operacoes" id="select">
+        <option value="multiplicacao">multiplicacao</option>
+        <option value="adicao">adicao</option>
+        <option value="subtracao">subtracao</option>
+        <option value="divisao">divisao</option>
+      </select>
+      <div>
+        <label>Digite o 1º valor:</label>
+        <input type="number" id="input1">
+      </div>
+      <div>
+        <label>Digite o 2º valor:</label>
+        <input type="number" id="input2">
+      </div>
+      <span>Resultado: <span id="resultado">0</span></span>
+      <button id="button">Calcular</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
